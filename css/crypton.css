@@ -187,7 +187,7 @@
     section.features .feature-item i {
       font-size: 80px;
       display: block;
-      margin-bottom: 1px;
+      margin-bottom: 15px;
       background: -webkit-linear-gradient(to left, #3991e2, #819ea5);
       background: linear-gradient(to left, #3991e2, #819ea5);
       -webkit-background-clip: text;
