@@ -1,0 +1,138 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/*body > .container {
+  padding: 60px 15px 0;
+}*/
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.bg-crypton-pattern {
+  background: rgba(222, 120, 113, 0.5);
+  background: -moz-linear-gradient(top left, rgba(124, 67, 117, 0.8) 15%, #d14d61, rgb(222, 120, 113));
+  background: -webkit-linear-gradient(top left, rgba(124, 67, 117, 0.8) 15%, #d14d61, rgb(222, 120, 113));
+  background: -ms-linear-gradient(top left, rgba(124, 67, 117, 0.8) 15%, #d14d61, rgb(222, 120, 113));
+  background: linear-gradient(-45deg, #19b0d4, #3991e2, #f4f9fd, #33b9d8);
+	background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+.bg-modal-pattern {
+	background: linear-gradient(-45deg, #19b0d4, #3991e2, #f4f9fd, #33b9d8);
+	background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+#content {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  margin: auto;
+  background: transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#top {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#features {
+  min-width: 250px;
+
+}
+
+#features.img {
+  padding-top: 50px;
+}
+.crypton-subtitle {
+  font-size: 1.5em;
+}
+
+.crypton-modal {
+  background-color: purple;
+}
+
+.crypton-button :hover {
+  background: transparent;
+
+}
+
+/*.feature-text {
+  padding: 30px
+}*/
+
+/*div {
+  padding-bottom: 30px;
+}
+
+img {
+  padding-bottom: 20px;
+}*/
+
+.item .img {
+  float: left;
+  display: block;
+  height: 230px;
+}
