@@ -266,10 +266,12 @@
     }
 
 
-  .navbar .navbar-brand {
-    color: #0a0a56;
-    filter: brightness(.9);
-  }
+    .navbar .navbar-brand {
+      color: #0a0a56;
+      filter: brightness(.9);
+      margin-right: 0;
+    }
+    
   .navbar .navbar-brand:hover {
     filter: brightness(1);
   }
@@ -281,7 +283,7 @@
     color: white;
   }*/
 
-  
+
   i.btn {
     color: #ededed;
   }
